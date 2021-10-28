@@ -14,5 +14,4 @@
     <servlet-name>Demo01</servlet-name>
     <url-pattern>/Demo01</url-pattern>
   </servlet-mapping>
-
 </web-app>
