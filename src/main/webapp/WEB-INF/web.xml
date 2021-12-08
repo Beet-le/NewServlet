@@ -6,12 +6,29 @@
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1"
          metadata-complete="true">
-<servlet>
-  <servlet-name>Demo01</servlet-name>
-  <servlet-class>com.bt.servlet.ServletDemo01</servlet-class>
-</servlet>
-  <servlet-mapping>
-    <servlet-name>Demo01</servlet-name>
-    <url-pattern>/Demo01</url-pattern>
-  </servlet-mapping>
+    <servlet>
+        <servlet-name>Demo01</servlet-name>
+        <servlet-class>com.bt.servlet.ServletDemo01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Demo01</servlet-name>
+        <url-pattern>/Demo01</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>cookdemo01</servlet-name>
+        <servlet-class>com.bt.servlet.CookDemo01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cookdemo01</servlet-name>
+        <url-pattern>/cookdemo01</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>cookdemo02</servlet-name>
+        <servlet-class>com.bt.servlet.CookDemo02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cookdemo02</servlet-name>
+        <url-pattern>/cookdemo02</url-pattern>
+    </servlet-mapping>
 </web-app>

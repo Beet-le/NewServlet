@@ -16,6 +16,7 @@ public class ServletDemo01 extends HttpServlet {
     }
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setCharacterEncoding("utf-8");
         System.out.println("doPost");
         String username=req.getParameter("username");
         System.out.println(username);
